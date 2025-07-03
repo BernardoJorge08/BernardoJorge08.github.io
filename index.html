@@ -1,125 +1,139 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio | Bernardo Jorge</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet" />
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             font-family: 'Montserrat', Arial, sans-serif;
             background: #f4f4f4;
             margin: 0;
             padding: 0;
             color: #222;
+            line-height: 1.6;
         }
+
         header {
             background: #222;
             color: #fff;
-            padding: 2rem 0;
+            padding: 2rem 1rem;
             text-align: center;
         }
+
         header img {
             width: 128px;
             height: 128px;
             border-radius: 50%;
             object-fit: cover;
             margin-bottom: 1rem;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
         }
+
         header h1 {
-            margin: 0.5rem 0 0.2rem 0;
             font-size: 2.5rem;
             font-weight: 700;
+            margin: 0.5rem 0 0.2rem;
         }
+
         header p {
-            margin: 0;
             font-size: 1.2rem;
             color: #bbb;
+            margin: 0;
         }
+
         main {
             max-width: 900px;
             margin: 2rem auto;
             background: #fff;
             border-radius: 10px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
             padding: 2rem;
         }
+
         section {
             margin-bottom: 2rem;
         }
+
         h2 {
             color: #2b7a78;
-            margin-bottom: 1rem;
             border-left: 4px solid #2b7a78;
             padding-left: 0.5rem;
             font-size: 1.6rem;
-            font-weight: 700;
+            margin-bottom: 1rem;
         }
-        ul {
-            padding-left: 1.6rem;
+
+        p {
+            font-size: 1rem;
+            color: #333;
         }
-        .projects {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1.5rem;
-        }
-        .project-card {
-            background: #eef7f6;
-            border-radius: 8px;
-            padding: 1rem;
-            box-shadow: 0 1px 4px rgba(43,122,120,0.05);
-        }
-        .project-card h3 {
-            margin-top: 0;
-            color: #222;
-        }
-        .project-card p {
-            font-size: 0.98rem;
-            color: #444;
-        }
-        .project-card a {
+
+        a {
             color: #2b7a78;
             text-decoration: none;
-            font-weight: 600;
         }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
         .social {
-            margin-top: 1.5rem;
+            margin-top: 2rem;
             text-align: center;
         }
+
         .social a {
             margin: 0 0.5rem;
-            color: #2b7a78;
-            text-decoration: none;
             font-size: 1.4rem;
+            color: #2b7a78;
             transition: color 0.2s;
         }
+
         .social a:hover {
             color: #20504f;
         }
+
         @media (max-width: 600px) {
-            main { padding: 1rem; }
-            header h1 { font-size: 2rem; }
+            main {
+                padding: 1rem;
+            }
+
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
         }
     </style>
 </head>
 <body>
     <header>
-        <img src="https://avatars.githubusercontent.com/u/your-github-user-id?v=4" alt="Bernardo Jorge">
+        <img src="https://avatars.githubusercontent.com/u/your-github-user-id?v=4" alt="Foto de Bernardo Jorge" />
         <h1>Bernardo Jorge</h1>
         <p>Desenvolvedor Web | Estudante de Tecnologia | Criativo & Apaixonado por Código</p>
     </header>
+
     <main>
         <section>
             <h2>Sobre Mim</h2>
             <p>
-                meu nome é Bernardo tenho 17 anos moro em Para de Minas MG, sou estudante e tenho munta vontade de ter minha propria empresa.
+                Meu nome é Bernardo, tenho 17 anos e moro em Pará de Minas, MG. Sou estudante e tenho muita vontade de abrir minha própria empresa na área de tecnologia. Estou sempre buscando aprender e evoluir como desenvolvedor.
             </p>
         </section>
-        </section>
+
         <section>
             <h2>Contato</h2>
-            <p>Entre em contato comigo pelo e-mail: <a href="mailto:0001066135@senaimgaluno.com.br">0001066135@senaimgaluno.com.br</a></p>
+            <p>
+                Entre em contato comigo pelo e-mail: 
+                <a href="mailto:0001066135@senaimgaluno.com.br">0001066135@senaimgaluno.com.br</a>
+            </p>
         </section>
     </main>
 </body>
